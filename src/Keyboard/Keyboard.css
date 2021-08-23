@@ -1,0 +1,25 @@
+
+.white-key {
+  position: relative;
+  width: 10%;
+  height: 100%;
+  background: #fff;
+  border: 2px solid grey;
+}
+.white-key:active {
+   background-color: darkgray;
+}
+
+.black-key{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 75%;
+  background: #000;
+  z-index: 1;
+  color: white;
+}
+
+.black-key:active {
+  background-color: darkgrey;
+}
